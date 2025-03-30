@@ -5,7 +5,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/vector"
-        tools:context=".SkillsFragment" android:id="@+id/nestedScrollView2">
+        tools:context="com.Laura.StudentCookbook.SkillsFragment" android:id="@+id/nestedScrollView2">
     <TextView
             android:text="Skills "
             android:layout_width="156dp"

@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.Laura.StudentCookbook;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,6 +7,7 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+import com.example.myapplication.R;
 import com.example.myapplication.databinding.ActivityMainBinding;
 import androidx.core.view.WindowCompat;
 import android.view.Menu;

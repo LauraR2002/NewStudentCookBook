@@ -7,7 +7,7 @@
 
     <fragment
             android:id="@+id/FirstFragment"
-            android:name="com.example.myapplication.FirstFragment"
+            android:name="com.Laura.StudentCookbook.FirstFragment"
             android:label="@string/first_fragment_label"
             tools:layout="@layout/fragment_first">
 
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
             android:id="@+id/SecondFragment"
-            android:name="com.example.myapplication.SecondFragment"
+            android:name="com.Laura.StudentCookbook.SecondFragment"
             android:label="@string/second_fragment_label"
             tools:layout="@layout/fragment_second">
 
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
             android:id="@+id/SkillsFragment"
-            android:name="com.example.myapplication.SkillsFragment"
+            android:name="com.Laura.StudentCookbook.SkillsFragment"
             android:label="SkillsFragment"
             tools:layout="@layout/fragment_skills">
 
@@ -42,7 +42,7 @@
     </fragment>
     <fragment
         android:id="@+id/KnifeSkillsFragment"
-        android:name="com.example.myapplication.KnifeSkillsFragment"
+        android:name="com.Laura.StudentCookbook.KnifeSkillsFragment"
         android:label="KnifeSkills"
         tools:layout="@layout/fragment_knife_skills">
         <action android:id="@+id/action_KnifeSkillsFragment_to_SkillsFragment"
