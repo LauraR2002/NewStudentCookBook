@@ -24,9 +24,10 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.645"
-                android:background="#74FFFFFF"/>
+                android:background="#74EDE3E3" android:fontFamily="cursive" android:textSize="34sp"
+                app:rippleColor="#0FFFFFFF"/>
         <TextView
-                android:text="Student Cookbook"
+                android:text="@string/student_cookbook"
                 android:layout_width="333dp"
                 android:layout_height="162dp" android:id="@+id/textView"
                 app:layout_constraintBottom_toBottomOf="parent"

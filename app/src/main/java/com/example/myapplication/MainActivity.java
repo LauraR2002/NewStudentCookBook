@@ -1,18 +1,17 @@
 package com.example.myapplication;
 
 import android.os.Bundle;
-import com.google.android.material.snackbar.Snackbar;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
-import androidx.core.view.WindowCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import com.example.myapplication.databinding.ActivityMainBinding;
-
+import androidx.core.view.WindowCompat;
 import android.view.Menu;
 import android.view.MenuItem;
+import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+
     }
 
     @Override

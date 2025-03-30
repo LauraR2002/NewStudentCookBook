@@ -12,10 +12,10 @@
             android:layout_width="104dp"
             android:layout_height="37dp" android:id="@+id/textView12"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintVertical_bias="0.568" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.568" app:layout_constraintStart_toStartOf="@+id/imageButton5"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            app:layout_constraintHorizontal_bias="0.147" android:fontFamily="cursive" android:textSize="34sp"/>
+            android:fontFamily="cursive" android:textSize="34sp"/>
     <TextView
             android:text="Vegan"
             android:layout_width="104dp"
@@ -24,7 +24,8 @@
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintVertical_bias="0.99" app:layout_constraintStart_toStartOf="parent"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            app:layout_constraintHorizontal_bias="0.877" android:fontFamily="cursive" android:textSize="34sp"/>
+            app:layout_constraintHorizontal_bias="0.877" android:fontFamily="cursive" android:textSize="34sp"
+    />
     <TextView
             android:text="Soup"
             android:layout_width="104dp"
@@ -39,49 +40,49 @@
             android:layout_width="104dp"
             android:layout_height="37dp" android:id="@+id/textView9"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintVertical_bias="0.769" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@+id/imageButton9"
+            app:layout_constraintVertical_bias="0.769"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            app:layout_constraintHorizontal_bias="0.895" android:fontFamily="cursive" android:textSize="34sp"/>
+            android:fontFamily="cursive" android:textSize="34sp"/>
     <TextView
             android:text="Duck"
             android:layout_width="104dp"
             android:layout_height="37dp" android:id="@+id/textView8"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintVertical_bias="0.778" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.778" app:layout_constraintStart_toStartOf="@+id/imageButton7"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            app:layout_constraintHorizontal_bias="0.124" android:fontFamily="cursive" android:textSize="34sp"/>
+            android:fontFamily="cursive" android:textSize="34sp"/>
     <TextView
             android:text="Beef"
             android:layout_width="104dp"
             android:layout_height="37dp" android:id="@+id/textView6"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintVertical_bias="0.568" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@+id/imageButton6"
+            app:layout_constraintVertical_bias="0.568"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            app:layout_constraintHorizontal_bias="0.877" android:fontFamily="cursive" android:textSize="34sp"/>
+            android:fontFamily="cursive" android:textSize="34sp"/>
     <TextView
             android:text="Bread"
             android:layout_width="104dp"
             android:layout_height="37dp" android:id="@+id/textView7"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintVertical_bias="0.338" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@+id/imageButton4"
+            app:layout_constraintVertical_bias="0.338"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            app:layout_constraintHorizontal_bias="0.895" android:fontFamily="cursive" android:textSize="34sp"/>
+            android:fontFamily="cursive" android:textSize="34sp"/>
     <TextView
             android:text="Skills"
             android:layout_width="104dp"
             android:layout_height="37dp" android:id="@+id/textView5"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintVertical_bias="0.337" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.337" app:layout_constraintStart_toStartOf="@+id/imageButton3"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            app:layout_constraintHorizontal_bias="0.097" android:fontFamily="cursive" android:textSize="34sp"/>
+            android:fontFamily="cursive" android:textSize="24sp"/>
     <EditText
-            android:layout_width="404dp"
-            android:layout_height="117dp"
+            android:layout_width="410dp"
+            android:layout_height="85dp"
             android:inputType="text"
             android:ems="10"
             android:id="@+id/editTextText" tools:text=" Student CookBook"
@@ -94,70 +95,83 @@
             android:hyphenationFrequency="none" android:focusableInTouchMode="false"/>
     <ImageButton
             android:src="@drawable/skills"
-            android:layout_width="141dp"
-            android:layout_height="126dp" android:id="@+id/imageButton"
-            app:layout_constraintStart_toStartOf="@+id/imageButton3"
+            android:layout_width="130dp"
+            android:layout_height="111dp" android:id="@+id/imageButton"
+            app:layout_constraintStart_toStartOf="@+id/textView5"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.211"
-            android:scaleType="fitXY" android:background="#00FFFFFF"/>
+            app:layout_constraintVertical_bias="0.201"
+            android:scaleType="fitXY" android:background="#00FFFFFF"
+            android:contentDescription="@android:string/unknownName"
+    />
     <ImageButton
             android:src="@drawable/bread"
-            android:layout_width="147dp"
-            android:layout_height="121dp" android:id="@+id/imageButton2"
+            android:layout_width="148dp"
+            android:layout_height="103dp" android:id="@+id/imageButton2"
             android:scaleType="fitXY" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.216"
-            app:layout_constraintEnd_toEndOf="@+id/imageButton4"
-            android:background="#00FFFFFF"/>
+            app:layout_constraintEnd_toEndOf="@+id/textView7"
+            android:background="#00FFFFFF"
+    />
     <ImageButton
             android:src="@drawable/bakedchicken"
-            android:layout_width="142dp"
-            android:layout_height="140dp" android:id="@+id/imageButton3"
+            android:layout_width="139dp"
+            android:layout_height="123dp" android:id="@+id/imageButton3"
             android:scaleType="fitXY" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/imageButton5"
-            app:layout_constraintVertical_bias="0.447" android:background="#00FFFFFF"/>
+            app:layout_constraintStart_toStartOf="@+id/textView12"
+            app:layout_constraintVertical_bias="0.447" android:background="#00FFFFFF"
+    />
     <ImageButton
             android:src="@drawable/beef"
-            android:layout_width="146dp"
-            android:layout_height="144dp" android:id="@+id/imageButton4"
+            android:layout_width="144dp"
+            android:layout_height="111dp" android:id="@+id/imageButton4"
             android:scaleType="fitXY" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@+id/imageButton6"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@+id/textView6"
             app:layout_constraintVertical_bias="0.443" android:backgroundTint="#00FFFFFF"
-            android:background="#08FFFFFF"/>
+            android:background="#08FFFFFF"
+    />
     <ImageButton
             android:src="@drawable/duck"
-            android:layout_width="144dp"
-            android:layout_height="141dp" android:id="@+id/imageButton5"
+            android:layout_width="139dp"
+            android:layout_height="110dp" android:id="@+id/imageButton5"
             android:scaleType="fitXY" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/imageButton7"
-            app:layout_constraintVertical_bias="0.698" android:background="#00FFFFFF"/>
+            app:layout_constraintStart_toStartOf="@+id/textView8"
+            app:layout_constraintVertical_bias="0.698" android:background="#00FFFFFF"
+    />
     <ImageButton
             android:src="@drawable/lamb"
-            android:layout_width="143dp"
-            android:layout_height="134dp" android:id="@+id/imageButton6"
+            android:layout_width="131dp"
+            android:layout_height="101dp" android:id="@+id/imageButton6"
             android:scaleType="fitXY" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.914"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView9"
             app:layout_constraintVertical_bias="0.69" android:backgroundTint="#03FFFFFF"
-            android:background="#00FFFFFF"/>
+            android:background="#00FFFFFF"
+    />
     <ImageButton
             android:src="@drawable/soup"
-            android:layout_width="145dp"
-            android:layout_height="141dp" android:id="@+id/imageButton7"
+            android:layout_width="130dp"
+            android:layout_height="111dp" android:id="@+id/imageButton7"
             android:scaleType="fitXY" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.069"
-            app:layout_constraintVertical_bias="0.945" android:background="#00FFFFFF"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView10"
+            app:layout_constraintVertical_bias="0.935" android:background="#00FFFFFF"/>
     <ImageButton
             android:src="@drawable/veganism"
-            android:layout_width="136dp"
-            android:layout_height="137dp" android:id="@+id/imageButton9" tools:layout_editor_absoluteY="700dp"
-            tools:layout_editor_absoluteX="327dp" android:scaleType="fitXY" android:background="#00FFFFFF"/>
+            android:layout_width="130dp"
+            android:layout_height="119dp" android:id="@+id/imageButton9"
+            android:scaleType="fitXY" android:background="#00FFFFFF"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView11"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.942"/>
     <Button
             android:text="Back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/buttonSecond"
-            tools:layout_editor_absoluteX="213dp" app:rippleColor="#00FFFFFF"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:rippleColor="#00FFFFFF"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.52" app:layout_constraintVertical_bias="0.979"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

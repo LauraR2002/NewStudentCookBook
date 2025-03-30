@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/vector"
+        tools:context=".SkillsFragment" android:id="@+id/nestedScrollView2">
+    <TextView
+            android:text="Skills "
+            android:layout_width="156dp"
+            android:layout_height="82dp" android:id="@+id/textView3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.004" android:fontFamily="cursive" android:textSize="60sp"/>
+    <ImageButton
+            android:src="@drawable/basic_knife_skills_15d52125_59c4_432a_995a_edae69b49db7_2048x2048"
+            android:layout_width="109dp"
+            android:layout_height="123dp" android:id="@+id/imageButton8"
+            android:scaleType="fitXY" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintVertical_bias="0.179"/>
+    <TextView
+            android:text="Knive Skills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.148"
+            app:layout_constraintVertical_bias="0.338" android:fontFamily="cursive" android:textSize="20sp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
